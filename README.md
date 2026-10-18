@@ -23,12 +23,6 @@ The website is developed using HTML and CSS and hosted directly from an S3 bucke
 - **CSS3:** Website styling and responsive layout
 - **GitHub:** Source code management and project documentation
 
-## 🌐 Live Website
-
-**Website URL:**  
-http://task18-static-website.s3-website.ap-south-1.amazonaws.com
-
-> Note: The S3 website endpoint uses HTTP. For production websites requiring HTTPS, consider Amazon CloudFront with an appropriate certificate.
 
 ## 📂 Project Structure
 
