@@ -1,0 +1,135 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f7fc;
+    color: #172554;
+    line-height: 1.7;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    padding: 20px 8%;
+    background: #ffffff;
+    box-shadow: 0 2px 12px #17255412;
+}
+
+.logo {
+    font-size: 23px;
+    font-weight: bold;
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.nav-link {
+    color: #334155;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 8%;
+    background: linear-gradient(135deg, #dbeafe, #eff6ff, #ffffff);
+}
+
+.tag {
+    color: #2563eb;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.hero h1 {
+    max-width: 800px;
+    margin: 18px auto;
+    font-size: clamp(32px, 5vw, 54px);
+    line-height: 1.2;
+}
+
+.intro {
+    max-width: 650px;
+    margin: 0 auto 28px;
+    color: #475569;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    background: #2563eb;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.section {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 40px 30px;
+    background: white;
+    border-radius: 14px;
+}
+
+.section h2 {
+    margin-bottom: 16px;
+    color: #1d4ed8;
+}
+
+.section p {
+    color: #475569;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 14px;
+}
+
+.skill {
+    padding: 18px;
+    text-align: center;
+    background: #eff6ff;
+    border: 1px solid #dbeafe;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.contact a {
+    display: inline-block;
+    margin-top: 12px;
+    color: #2563eb;
+}
+
+footer {
+    padding: 25px;
+    text-align: center;
+    color: #64748b;
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        padding: 16px 5%;
+    }
+
+    .hero {
+        padding: 70px 6%;
+    }
+
+    .section {
+        margin: 18px 12px;
+        padding: 28px 20px;
+    }
+}
